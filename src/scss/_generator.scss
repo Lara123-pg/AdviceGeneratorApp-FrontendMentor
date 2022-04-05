@@ -1,0 +1,64 @@
+div.container {
+    @include Display(center, center);
+    
+    height: 100vh;
+
+    main.generator {
+        @include Display(space-between, center);
+        flex-direction: column;
+
+        width: 500px;
+        height: 340px;
+
+        background-color: $color1;
+
+        padding: 1em 2em 2em 2em;
+
+        border-radius: 13px;
+
+        p {
+            @include ColorFont($color2, 0.8rem, 1em);
+      
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            @include ColorFont($color3, 0.9em, 1em);
+        }
+
+        button {
+            width: 50px;
+            height: 50px;
+
+            position: fixed;
+
+            bottom: 125px;
+
+            img {
+                width: 40%;
+            }
+
+            border: 0;
+            border-radius: 30px;
+
+            background-color: $color2;
+
+            &:hover {
+                cursor: pointer;
+
+                box-shadow: 0 0 1em $color2;
+            }
+        }
+    }
+}
+
+footer.attribution {
+    font-size: 13px; 
+    text-align: center; 
+
+    a { 
+        color: hsl(228, 45%, 44%); 
+      }
+
+    margin-top: -4em;
+}

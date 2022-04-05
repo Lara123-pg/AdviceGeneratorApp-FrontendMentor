@@ -1,0 +1,7 @@
+@mixin ColorFont($color, $size, $paddingBottom) {
+    color: $color;
+
+    font-size: $size;
+
+    padding-bottom: $paddingBottom;
+}

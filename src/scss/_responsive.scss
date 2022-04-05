@@ -1,0 +1,29 @@
+@media(max-width: 510px) {
+    div.container {
+        main.generator {
+            padding: 1em;
+
+            width: 350px;
+            height: 300px;
+
+            h1 {
+                font-size: 1.2rem;
+            }
+
+            img {
+                width: 300px;
+
+                padding-bottom: 1em;
+            }
+
+            button {
+                width: 60px;
+                height: 60px;
+                
+                padding-top: 1em;
+
+                bottom: 10em;
+            }
+        }
+    }
+}
