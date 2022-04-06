@@ -1,3 +1,37 @@
+@media(max-width: 2560px) {
+    div.container {
+        main.generator {
+            button {
+                bottom: 340px;
+            }
+        }
+    }
+}
+
+@media(max-width: 1440px) {
+    div.container {
+        main.generator {
+            button {
+                bottom: 93px;
+            }
+        }
+    }
+}
+
+@media(max-width: 1024px) {
+    div.container {
+        main.generator {
+            button {
+                bottom: 50px;
+            }
+        }
+    }
+
+    footer.attribution {
+        margin-top: -2em;
+    }
+}
+
 @media(max-width: 510px) {
     div.container {
         main.generator {
@@ -23,6 +57,16 @@
                 padding-top: 1em;
 
                 bottom: 10em;
+            }
+        }
+    }
+}
+
+@media(max-width: 425px) {
+    div.container {
+        main.generator {
+            button {
+                top: 350px;
             }
         }
     }
